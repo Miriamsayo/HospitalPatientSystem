@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/02acaad2-4760-4a29-8993-c91bf9bb4b14)# HospitalPatientSystem
+![image](https://github.com/user-attachments/assets/02acaad2-4760-4a29-8993-c91bf9bb4b14)# 
+HospitalPatientSystem
 PROJECT OVERVIEW
 
 The hospitalPatientSystem is a web-based application designed to manage hospital operations, including managing patients, doctors, appointments, medicalrecords, and departments. The system utilizes Django and Django REST framework to provide  RESTful API for seamless interaction with hospital data.
