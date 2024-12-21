@@ -1,7 +1,7 @@
 # HospitalPatientSystem
 PROJECT OVERVIEW
 
-The hospitalPatientSystem is a web-based application designed to manage hospital operations, including the management of patients, doctors,appointments, medicalrecords and departments. The system utilizes Django and Django REST framework to provide a RESTful API for seamless interaction with hospital data.
+The hospitalPatientSystem is a web-based application designed to manage hospital operations, including managing patients, doctors, appointments, medicalrecords, and departments. The system utilizes Django and Django REST framework to provide  RESTful API for seamless interaction with hospital data.
 
 GROUP MEMBERS ID
 
@@ -78,7 +78,7 @@ URL:/api/medicalrecords/
 
 DepartmentViewSet
 
-Handle CRUD operations for Department
+Handle CRUD operations for the Department
 URL:/api/department/
 
 
@@ -104,7 +104,7 @@ Validation:
 appointment_date must not be in the past
 
 Testing
-The model was tested and is able to create a new patient, doctors can retrieve records, appointments are scheduled and the status are either Pending, canceled, completed, departments can be added.
+The model was tested and is able to create a new patient, doctors can retrieve records, appointments are scheduled and the status is either Pending, canceled, or completed, or departments can be added.
 
 
 
