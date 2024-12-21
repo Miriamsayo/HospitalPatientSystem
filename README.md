@@ -57,10 +57,55 @@ status(CharField)
 patient(foreignKey)
 doctor(foreignkey)
 
-VIEWS/VIEWSETS 
+VIEWS/VIEWSet
 
 PatientViewSet
 Handles CRUD operations for patients
+URL:/api/patients/
+
+DoctorViewSet
+Handles CRUD operations for doctors
+URL:/api/doctors/
+
+AppointmentViewSet
+Handle CRUD operations for appointments
+URL:/api/appointments/
+
+MedicalRecordViewSet
+
+Handle CRUD operations for medicalrecords
+URL:/api/medicalrecords/
+
+DepartmentViewSet
+
+Handle CRUD operations for Department
+URL:/api/department/
+
+
+Serializers and Validation Rules
+
+PatientSerializer
+Fields serialized: name, age, contact_number
+
+Validation:
+age must be a positive Integer
+contact_number must follow a valid phone number format
+
+DoctorSerializer
+Fields Serialized: name, specialization, contact_number
+
+Validation
+specialization cannot be empty.
+
+AppointmentSerializer
+Fields Serialized: patient, doctor, appointment_date, status
+
+Validation:
+appointment_date must not be in the past
+
+Testing
+The model was tested and is able to create a new patient, doctors can retrieve records, appointments are scheduled and the status are either Pending, canceled, completed, departments can be added.
+
 
 
 
