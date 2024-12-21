@@ -57,6 +57,12 @@ status(CharField)
 patient(foreignKey)
 doctor(foreignkey)
 
+VIEWS/VIEWSETS 
+
+PatientViewSet
+Handles CRUD operations for patients
+
+
 
 
 
