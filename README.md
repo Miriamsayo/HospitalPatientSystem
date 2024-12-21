@@ -1,14 +1,17 @@
 # HospitalPatientSystem
 PROJECT OVERVIEW
+
 The hospitalPatientSystem is a web-based application designed to manage hospital operations, including the management of patients, doctors,appointments, medicalrecords and departments. The system utilizes Django and Django REST framework to provide a RESTful API for seamless interaction with hospital data.
 
 GROUP MEMBERS ID
+
 97017
 151892
 107119
 150349
 
 PROJECT STRUCTUREHospitalPatientSystem/
+
 ├── HospitalPatientSystem/
 │   ├── __init__.py
 │   ├── settings.py
@@ -27,6 +30,7 @@ PROJECT STRUCTUREHospitalPatientSystem/
 └── db.sqlite3
 
 MODELS AND THEIR RELATIONSHIP
+
  PATIENT
 name(CharField)
 age(IntegerField)
